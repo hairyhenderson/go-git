@@ -8,12 +8,12 @@ import (
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/memfs"
 	fixtures "github.com/go-git/go-git-fixtures/v4"
-	"github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage"
-	"github.com/go-git/go-git/v5/storage/memory"
+	git "github.com/hairyhenderson/go-git/v5"
+	"github.com/hairyhenderson/go-git/v5/plumbing"
+	"github.com/hairyhenderson/go-git/v5/plumbing/object"
+	"github.com/hairyhenderson/go-git/v5/plumbing/storer"
+	"github.com/hairyhenderson/go-git/v5/storage"
+	"github.com/hairyhenderson/go-git/v5/storage/memory"
 	. "gopkg.in/check.v1"
 )
 

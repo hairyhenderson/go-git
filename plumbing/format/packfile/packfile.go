@@ -7,12 +7,12 @@ import (
 	"os"
 
 	billy "github.com/go-git/go-billy/v5"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/utils/ioutil"
-	"github.com/go-git/go-git/v5/utils/sync"
+	"github.com/hairyhenderson/go-git/v5/plumbing"
+	"github.com/hairyhenderson/go-git/v5/plumbing/cache"
+	"github.com/hairyhenderson/go-git/v5/plumbing/format/idxfile"
+	"github.com/hairyhenderson/go-git/v5/plumbing/storer"
+	"github.com/hairyhenderson/go-git/v5/utils/ioutil"
+	"github.com/hairyhenderson/go-git/v5/utils/sync"
 )
 
 var (
